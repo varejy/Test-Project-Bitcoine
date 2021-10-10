@@ -29,8 +29,6 @@ app.get('/api/getBitcoin', (req, res) => {
     })
 });
 
-app.get('/', (req, res) => res.sendFile('../public/index.html'))
-
 app.get('/api/getBitcoinHistory', (req, res) => {
     const requestOptions = {
         method: 'GET',
