@@ -5,4 +5,4 @@
 //     headers: headers,
 // })
 
-export default { 'X-CMC_PRO_API_KEY': 'd9880768-d805-4ad7-8674-59b4c94a510a'}
+export default { 'X-CMC_PRO_API_KEY': 'bf0bcc90-cd30-4b72-b139-cf6fde6e3195'}
