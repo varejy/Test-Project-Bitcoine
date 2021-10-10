@@ -1,0 +1,1 @@
+export default { 'api_key': '7de5d64c6842f732322fce0d6dc5599ca0421b0ad17d5bab4eaa5459e088d191'}

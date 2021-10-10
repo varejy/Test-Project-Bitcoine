@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+}
+
+.paginationNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+
+    @media (max-width: 420px) {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.paginationNumberActive{
+    outline: 1px solid green;
+}
+
+.paginationNumberDelimiter {
+    cursor: default;
+}
+
+.delimiter {
+    display: flex;
+}

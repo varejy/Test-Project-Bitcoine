@@ -1,0 +1,11 @@
+version: "3"
+services:
+  bitcoinHistory:
+    image: node:14-alpine
+    working_dir: /bitcoinHistory
+    volumes:
+      - ./:/bitcoinHistory
+    ports:
+    - '3000:3000'
+    - '4000:4000'
+    entrypoint: ["yarn", "start"]
